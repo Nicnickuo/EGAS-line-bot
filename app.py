@@ -377,7 +377,7 @@ def function(event):
         line_bot_api.reply_message(event.reply_token, FlexSendMessage(alt_text='hi', contents=contents))
     else:
         line_bot_api.reply_message(event.reply_token,
-                                   TextSendMessage(text="您好～請先點選下方選單中的開始進行選擇喔"))
+                                   TextSendMessage(text="testtest"))
 
 
 # 執行
